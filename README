@@ -1,0 +1,45 @@
+- Board:
+    Board function plays the most role in all classes of this Project
+
+    ROLES:
+    + initBoard(): used to display the score, the state of the game
+    + addListener(): used to receive keyboard input commands
+    + squareWidth(): size of shapes 
+    + squareHeight(): size of shapes
+    + shapeAt(): return the location of the Shape
+    + start(): start game
+    + pause(): pause game
+    + doDrawing(): Draw objects on the screen.
+    + dropDown(): set the Location to the bottom
+    + oneLineDown(): down 1 unit faster
+    + clearBoard(): fullLine => clear
+    + pieceDropped(): check the state of the shape falling or falling
+    + newPiece(): create new piece when the previous are Dropped
+    + tryMove(): check if it can be moved or not, if it is possible to change the position as the player wants
+    + rotateLeft(): rotate the shape to the left
+    + removeFullLines(): check if 1 row is enough then delete 1 row
+    + drawSquare(): draw shapes according to the rule x, y
+
+- MainMenu:
+    is the screen at the start of the game, helping the player to choose 1 player or 2 players or if need instructions to play. If there is no demand, the player can press exit to end the game
+
+    ROLES:
+    + addButtons(): create & setSize for Buttons & function of each buttons onePlayer, twoPlayers, howToPlay, exit, insert image into background
+
+
+- Shape:
+    This class is responsible for saving information about bricks, drawing shapes, coloring shapes, creating randomness when creating new shapes.
+
+    ROLES:
+    + Shape(): We define the block names in the Tetrominoes enum. In addition to the 7 basic blocks we create one more special, NoShape, this block has no shape.
+    + setShape(): In the constructor, we create an array of coords to store the actual coordinates of the block.
+    + setRandomShape(): equally divide the spawn rate of blocks
+    + minX() & minY(): locate the smallest x and the smallest y in the 4 blocks
+    + rotateLeft(): returns the same state for the square shape, and assigns new values to the remaining shapes using a for loop
+
+- TAdapter:
+    use commands to get input from keyboard
+
+
+- Tetris:
+
