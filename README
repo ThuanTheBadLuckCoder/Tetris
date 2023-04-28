@@ -1,45 +1,16 @@
-- Board:
-    Board function plays the most role in all classes of this Project
+Hi, I'm Doan Tran Thuan, a software engineer with a passion for building innovative software solutions. I believe that my skills and experience will be a valuable asset in the technology industry.
 
-    ROLES:
-    + initBoard(): used to display the score, the state of the game
-    + addListener(): used to receive keyboard input commands
-    + squareWidth(): size of shapes 
-    + squareHeight(): size of shapes
-    + shapeAt(): return the location of the Shape
-    + start(): start game
-    + pause(): pause game
-    + doDrawing(): Draw objects on the screen.
-    + dropDown(): set the Location to the bottom
-    + oneLineDown(): down 1 unit faster
-    + clearBoard(): fullLine => clear
-    + pieceDropped(): check the state of the shape falling or falling
-    + newPiece(): create new piece when the previous are Dropped
-    + tryMove(): check if it can be moved or not, if it is possible to change the position as the player wants
-    + rotateLeft(): rotate the shape to the left
-    + removeFullLines(): check if 1 row is enough then delete 1 row
-    + drawSquare(): draw shapes according to the rule x, y
+Background:
 
-- MainMenu:
-    is the screen at the start of the game, helping the player to choose 1 player or 2 players or if need instructions to play. If there is no demand, the player can press exit to end the game
+I am studying at International University in Ho Chi Minh City, Vietnam, where I will be getting my degree in Computer Science Engineering. At this place, I had 3 projects related to software, backend processing, a little frontend experience of websites.
+Skill:
 
-    ROLES:
-    + addButtons(): create & setSize for Buttons & function of each buttons onePlayer, twoPlayers, howToPlay, exit, insert image into background
+Over the course of my career, I have developed a range of skills, including full web development, database design, and software architecture. I am fluent in programming languages like Java, C/C++ and PHP. I am also a fast learner and love to stay up to date with the latest developments in the technology industry.
 
+Project:
 
-- Shape:
-    This class is responsible for saving information about bricks, drawing shapes, coloring shapes, creating randomness when creating new shapes.
+Throughout my career, I have worked on various projects, including web applications, mobile applications and backend systems. Some of my featured projects include [insert examples of your projects]. I love working on projects that challenge and push me out of my comfort zone, and I believe my past projects showcase my creative thinking and ability to find solutions. innovative solutions to problems.
 
-    ROLES:
-    + Shape(): We define the block names in the Tetrominoes enum. In addition to the 7 basic blocks we create one more special, NoShape, this block has no shape.
-    + setShape(): In the constructor, we create an array of coords to store the actual coordinates of the block.
-    + setRandomShape(): equally divide the spawn rate of blocks
-    + minX() & minY(): locate the smallest x and the smallest y in the 4 blocks
-    + rotateLeft(): returns the same state for the square shape, and assigns new values to the remaining shapes using a for loop
+Target:
 
-- TAdapter:
-    use commands to get input from keyboard
-
-
-- Tetris:
-
+Looking into the future, my goal is to continue to develop my skills and experience in software engineering. I'm always ready to face
